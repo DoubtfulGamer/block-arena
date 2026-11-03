@@ -1,0 +1,9 @@
+{
+  "name": "block-arena",
+  "version": "1.0.0",
+  "description": "Krunker-style blocky multiplayer FPS. Raw WebGL client, Node WebSocket server, all art in SVG.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "tdm": "node server.js tdm" },
+  "license": "MIT",
+  "dependencies": { "ws": "^8.18.0" }
+}
